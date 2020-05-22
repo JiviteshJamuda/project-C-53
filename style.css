@@ -1,0 +1,23 @@
+body{
+    background-color: #2c66ab;
+}
+img{
+    margin-left:200px;
+}
+.title{
+    text-align: center;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+.about{
+    font-size: 25px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+.about h2{
+    color: #757171;
+}
+a{
+    margin-left: 50px;
+    color: #ff0000;
+}
