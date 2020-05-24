@@ -1,5 +1,6 @@
 body{
     background-color: #2c66ab;
+    display: grid;
 }
 img{
     margin-left:200px;
@@ -9,15 +10,36 @@ img{
     background-color: #1f1f1f;
     color: #ffffff;
 }
-.about{
+.about {
+    border: solid;
     font-size: 25px;
     background-color: #1f1f1f;
     color: #ffffff;
 }
+.about *{
+    border: solid;
+}
 .about h2{
-    color: #757171;
+    color: #2c66ab;
+    text-align: center;
 }
 a{
     margin-left: 50px;
     color: #ff0000;
+}
+.react{
+    position: relative;
+}
+.react p{
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.react:hover p{
+    opacity: 1;
+}
+.react:hover img{
+    opacity: 0.2;
 }
